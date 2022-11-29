@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Digite Quanto tempo voce contribuiu: ");
         final Integer tempoDeContribuicao = scanner.nextInt();
         final String validacao;
-        if (idade >= 55 & tempoDeContribuicao >= 25){
+        if (idade >= 55 && tempoDeContribuicao >= 25){
             validacao = "Pode-ra contribuir";
         }else {
             validacao = "Não poderá contribuir";
