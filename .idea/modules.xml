@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AproveClass/AproveClass.iml" filepath="$PROJECT_DIR$/AproveClass/AproveClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CadastrarTarefas/CadastrarTarefas.iml" filepath="$PROJECT_DIR$/CadastrarTarefas/CadastrarTarefas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateMultiplication/CalculateMultiplication.iml" filepath="$PROJECT_DIR$/CalculateMultiplication/CalculateMultiplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateNumberSquared/CalculateNumberSquared.iml" filepath="$PROJECT_DIR$/CalculateNumberSquared/CalculateNumberSquared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorProductMoreShipment/CalculatorProductMoreShipment.iml" filepath="$PROJECT_DIR$/CalculatorProductMoreShipment/CalculatorProductMoreShipment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContasAPagar/ContasAPagar.iml" filepath="$PROJECT_DIR$/ContasAPagar/ContasAPagar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CursoLogicaCapitulo02/CursoLogicaCapitulo02.iml" filepath="$PROJECT_DIR$/CursoLogicaCapitulo02/CursoLogicaCapitulo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstMethod/FirstMethod.iml" filepath="$PROJECT_DIR$/FirstMethod/FirstMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello World/Hello World.iml" filepath="$PROJECT_DIR$/Hello World/Hello World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMC/IMC.iml" filepath="$PROJECT_DIR$/IMC/IMC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogicType/LogicType.iml" filepath="$PROJECT_DIR$/LogicType/LogicType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NameSumLastName/NameSumLastName.iml" filepath="$PROJECT_DIR$/NameSumLastName/NameSumLastName.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumerosDivisiveisPorTres/NumerosDivisiveisPorTres.iml" filepath="$PROJECT_DIR$/NumerosDivisiveisPorTres/NumerosDivisiveisPorTres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrevidenciaSocial/PrevidenciaSocial.iml" filepath="$PROJECT_DIR$/PrevidenciaSocial/PrevidenciaSocial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividade/Recursividade.iml" filepath="$PROJECT_DIR$/Recursividade/Recursividade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepetindoExercicioComWhile/RepetindoExercicioComWhile.iml" filepath="$PROJECT_DIR$/RepetindoExercicioComWhile/RepetindoExercicioComWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondMethod/SecondMethod.iml" filepath="$PROJECT_DIR$/SecondMethod/SecondMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SemanaComMaisLucro/SemanaComMaisLucro.iml" filepath="$PROJECT_DIR$/SemanaComMaisLucro/SemanaComMaisLucro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringVariable/StringVariable.iml" filepath="$PROJECT_DIR$/StringVariable/StringVariable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchCases/SwitchCases.iml" filepath="$PROJECT_DIR$/SwitchCases/SwitchCases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VerificarPassouConcurso/VerificarPassouConcurso.iml" filepath="$PROJECT_DIR$/VerificarPassouConcurso/VerificarPassouConcurso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addMoreMethods/addMoreMethods.iml" filepath="$PROJECT_DIR$/addMoreMethods/addMoreMethods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstClass/firstClass.iml" filepath="$PROJECT_DIR$/firstClass/firstClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numberTypes/numberTypes.iml" filepath="$PROJECT_DIR$/numberTypes/numberTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/returnExercise/returnExercise.iml" filepath="$PROJECT_DIR$/returnExercise/returnExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saleProduct/saleProduct.iml" filepath="$PROJECT_DIR$/saleProduct/saleProduct.iml" />
+    </modules>
+  </component>
+</project>
