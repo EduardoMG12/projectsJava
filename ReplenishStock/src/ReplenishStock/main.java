@@ -14,7 +14,6 @@ public class main {
             System.out.print("Voce tem " + product.quantityInStock + " "+ product.name + " em estoque");
         }
 
-
     }
     static Boolean reloadStock(Product product){
         Boolean outOfStock = true;
