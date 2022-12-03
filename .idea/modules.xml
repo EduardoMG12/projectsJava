@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/IMC/IMC.iml" filepath="$PROJECT_DIR$/IMC/IMC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogicType/LogicType.iml" filepath="$PROJECT_DIR$/LogicType/LogicType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MethodIntancia/MethodIntancia.iml" filepath="$PROJECT_DIR$/MethodIntancia/MethodIntancia.iml" />
       <module fileurl="file://$PROJECT_DIR$/NameSumLastName/NameSumLastName.iml" filepath="$PROJECT_DIR$/NameSumLastName/NameSumLastName.iml" />
       <module fileurl="file://$PROJECT_DIR$/NumerosDivisiveisPorTres/NumerosDivisiveisPorTres.iml" filepath="$PROJECT_DIR$/NumerosDivisiveisPorTres/NumerosDivisiveisPorTres.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrevidenciaSocial/PrevidenciaSocial.iml" filepath="$PROJECT_DIR$/PrevidenciaSocial/PrevidenciaSocial.iml" />
