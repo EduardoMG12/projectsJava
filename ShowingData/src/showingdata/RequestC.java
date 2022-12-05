@@ -15,18 +15,26 @@ public class RequestC {
     };
     void setSubTotal(Double subTotal){
         this.subTotal = subTotal;
+        setTotal();
     };
     Double getSubTotal(){
         return subTotal;
     };
     void setDiscount(Double discount){
         this.discount = discount;
+        setTotal();
     };
-    Double setDiscount(){
+
+    Double getDiscount(){
         return discount;
     };
     void setTotal(){
-        this.total = subTotal - discount;
+        if (discount == null){
+            this.total = subTotal;
+        }
+        else{
+            this.total = subTotal - discount;
+        }
     };
     Double getTotal(){
         return total;
