@@ -14,15 +14,17 @@ public class list {
 
         String message = "";
 
+            Integer i = 0;
 
         while (!message.toLowerCase().equals("x")) {
-            System.out.print("Escreva oque voce quer colocar na sua lista, para quebrar o programa digite X");
+            System.out.print("Escreva oque voce quer colocar na sua lista, para quebrar o programa digite X: ");
             message = scanner.nextLine();
+            i++;
 
             if (message.toLowerCase().equals("x")) {
                 break;
             }
-            message += " \n";
+            message = i +". " + message +" \n";
             daskList.add(message);
         }
         daskList.forEach((String messageList) -> {
