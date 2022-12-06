@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/StringVariable/StringVariable.iml" filepath="$PROJECT_DIR$/StringVariable/StringVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchCases/SwitchCases.iml" filepath="$PROJECT_DIR$/SwitchCases/SwitchCases.iml" />
       <module fileurl="file://$PROJECT_DIR$/VerificarPassouConcurso/VerificarPassouConcurso.iml" filepath="$PROJECT_DIR$/VerificarPassouConcurso/VerificarPassouConcurso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WriteArchive/WriteArchive.iml" filepath="$PROJECT_DIR$/WriteArchive/WriteArchive.iml" />
       <module fileurl="file://$PROJECT_DIR$/addMoreMethods/addMoreMethods.iml" filepath="$PROJECT_DIR$/addMoreMethods/addMoreMethods.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstClass/firstClass.iml" filepath="$PROJECT_DIR$/firstClass/firstClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/numberTypes/numberTypes.iml" filepath="$PROJECT_DIR$/numberTypes/numberTypes.iml" />
