@@ -11,9 +11,12 @@ public class ReadArchives {
     public static void main(String[] args) throws IOException {
         Path archive = Paths.get("exerciseList.txt");
         List<String> readArchive = Files.readAllLines(archive);
-        System.out.print(readArchive);
-
-
+        System.out.println(readArchive);
+        System.out.println("--------------------------------------");
+        for (int i = 0; i < readArchive.size(); i++) {
+            String archiveItem = readArchive.get(i);
+            System.out.println(archiveItem);
+        }
 
     }
 }
