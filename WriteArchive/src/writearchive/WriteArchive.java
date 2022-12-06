@@ -2,8 +2,7 @@ package writearchive;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -17,7 +16,6 @@ public class WriteArchive {
 
         lines.add(message);
 
-        Path archive = Paths.get("C:/Users/charl/Downloads/Documentos/arquivo.txt");
         FileWriter fileWriter = new FileWriter("JavaFileFirstArchive.txt");
 
         fileWriter.write(lines.get(0));
