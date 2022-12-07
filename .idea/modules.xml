@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/ReplenishStock/ReplenishStock.iml" filepath="$PROJECT_DIR$/ReplenishStock/ReplenishStock.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondMethod/SecondMethod.iml" filepath="$PROJECT_DIR$/SecondMethod/SecondMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/SemanaComMaisLucro/SemanaComMaisLucro.iml" filepath="$PROJECT_DIR$/SemanaComMaisLucro/SemanaComMaisLucro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SendEmail/SendEmail.iml" filepath="$PROJECT_DIR$/SendEmail/SendEmail.iml" />
       <module fileurl="file://$PROJECT_DIR$/ShowingData/ShowingData.iml" filepath="$PROJECT_DIR$/ShowingData/ShowingData.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringVariable/StringVariable.iml" filepath="$PROJECT_DIR$/StringVariable/StringVariable.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwitchCases/SwitchCases.iml" filepath="$PROJECT_DIR$/SwitchCases/SwitchCases.iml" />
