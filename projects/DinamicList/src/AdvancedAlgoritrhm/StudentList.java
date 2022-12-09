@@ -15,9 +15,8 @@ public class StudentList {
         if(scaleList == list.length) {
            Student[] newList = new Student[list.length + QUANTITY_LIST];
 
-            for (int i = 0; i < list.length; i++){
+            for (int i = 0; i < list.length; i++) {
                 newList[i] = list[i];
-
             }
             list = newList;
         }
@@ -29,7 +28,10 @@ public class StudentList {
     void removeStudent(Student student){
         for (int i = 0 ; i < scaleList; i++){
             Student a = list[i];
-            if (a.equals(student)){
+            if (a != null && a.equals(student)){
+                removeStudent(i);
+                break;
+            }else if(a == null && student == null){
                 removeStudent(i);
                 break;
             }
@@ -56,8 +58,12 @@ public class StudentList {
 
     void getStudentsPrint() {
         for (int i = 0; i < scaleList; i++) {
-            Student a = getStudent(i);
-            System.out.println("Student: " + a.name);
+            if(getStudent(i) != null) {
+                Student a = getStudent(i);
+                System.out.println("Student: " + a.name);
+            }else {
+                System.out.println("Student any name");
+            }
         }
 
     }

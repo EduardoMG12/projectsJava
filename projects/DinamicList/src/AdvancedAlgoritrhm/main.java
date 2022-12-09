@@ -1,5 +1,7 @@
 package AdvancedAlgoritrhm;
 
+import java.util.ArrayList;
+
 public class main {
     public static void main(String[] args){
         StudentList list = new StudentList();
@@ -28,6 +30,10 @@ public class main {
         Student student6 = new Student();
         student6.name = "Diogenes";
         list.addStudent(student6);
+
+        Student student7 = new Student();
+        student7.name = "Diogenes";
+        list.addStudent(null);
 
         list.getStudentsPrint();
         System.out.println(list.scale());
