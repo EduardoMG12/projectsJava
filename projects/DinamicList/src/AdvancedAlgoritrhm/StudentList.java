@@ -19,6 +19,7 @@ public class StudentList {
                 newList[i] = list[i];
             }
             list = newList;
+            organization();
         }
 
         list[scaleList] = student;
@@ -65,6 +66,29 @@ public class StudentList {
                 System.out.println("Student any name");
             }
         }
+
+    }
+    void organization(){
+        for (int i = 0; i < scaleList; i++){
+            Student studentPositionBase = list[i];
+                    int indexPositonBase= i;
+            while(indexPositonBase > 0){
+                int indexBeforePosition = indexPositonBase -1;
+                Student studentBeforePosition = list[indexBeforePosition];
+
+                Boolean studentPreviousPositionComesAfter = studentBeforePosition == null || studentBeforePosition.studentComesAfter(studentPositionBase);
+                if (studentPreviousPositionComesAfter){
+                    list[indexPositonBase] = list[indexBeforePosition];
+
+                    indexPositonBase--;
+                } else  {
+                    break;
+                }
+            }
+            list[indexPositonBase] = studentPositionBase;
+        }
+
+
 
     }
 

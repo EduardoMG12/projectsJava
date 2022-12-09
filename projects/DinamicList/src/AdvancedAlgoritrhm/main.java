@@ -37,11 +37,15 @@ public class main {
 
         list.getStudentsPrint();
         System.out.println(list.scale());
+
         System.out.println("-------------------------");
+
         list.removeStudent(student3);
         list.getStudentsPrint();
         System.out.println(list.scale());
 
+        System.out.println("-------------------------");
+        list.getStudentsPrint();
     }
 
 
