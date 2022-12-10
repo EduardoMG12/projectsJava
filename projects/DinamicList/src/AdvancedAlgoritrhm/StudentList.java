@@ -52,8 +52,8 @@ public class StudentList {
 
 
 
-    Student getStudent(int indice){
-        return list[indice];
+    Student getStudent(int index){
+        return list[index];
     }
 
 
@@ -71,7 +71,7 @@ public class StudentList {
     void organization(){
         for (int i = 0; i < scaleList; i++){
             Student studentPositionBase = list[i];
-                    int indexPositonBase= i;
+                    int indexPositonBase = i;
             while(indexPositonBase > 0){
                 int indexBeforePosition = indexPositonBase -1;
                 Student studentBeforePosition = list[indexBeforePosition];

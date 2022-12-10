@@ -35,6 +35,14 @@ public class main {
         student7.name = "Diogenes";
         list.addStudent(null);
 
+        Student student8 = new Student();
+        student8.name = "Diogenes";
+        list.addStudent(student8);
+
+        Student student9 = new Student();
+        student9.name = "Diogenes";
+        list.addStudent(student9);
+
         list.getStudentsPrint();
         System.out.println(list.scale());
 
