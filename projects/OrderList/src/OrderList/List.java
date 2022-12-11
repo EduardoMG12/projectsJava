@@ -4,7 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
 
 public class List {
     static final int QUANTITY_LIST = 1;
@@ -46,40 +45,61 @@ public class List {
     public void readArchiveListMembers(){
         String path = "ListExercise";
         try{
-            OrganizationList();
             String content = Files.readString(Paths.get(path));
-            System.out.println(content);
+            System.out.println(content.length());
+            String[] listRead = content.split("\n");
+            System.out.println(listRead);
+            System.out.println(listRead.length);
+            OrganizationList(listRead);
+            FileWriter newFile = new FileWriter("orderList.txt");
+            OrganizationList(listRead);
+            newFile.write(printListOrdersMembers(listRead));
+            newFile.close();
+
         } catch (IOException e){
             System.out.println("Read error" + e.getMessage());
         }
     }
     public void createArchiveListMembers() throws IOException {
-        FileWriter newFile = new FileWriter("ListExercise");
+        FileWriter newFile = new FileWriter("ListExercise.txt");
         newFile.write(printListMembers());
         newFile.close();
     }
-    public static void OrganizationList(){
-            for (int i = 0; i < workersAdd; i++){
+    public static void OrganizationList(String[] list){
+            for (int i = 0; i < list.length; i++){
                 int indexPositonBase = i;
-                Worker workerPositionBase = allListWorkers[i];
+                String workerPositionBase = list[i];
                 while(indexPositonBase > 0){
                     int indexBeforePosition = indexPositonBase -1;
-                   Worker workerBeforePosition = allListWorkers[indexBeforePosition];
+                   String workerBeforePosition = list[indexBeforePosition];
+                    boolean workerComesAfter = false;
 
-                    Boolean workersPreviousPositionComesAfter = workerBeforePosition == null || workerBeforePosition.workerComesAfter(workerPositionBase);
+                    Boolean workersPreviousPositionComesAfter = workerComesAfter = workerBeforePosition.compareTo(workerPositionBase) > 0;
                     if (workersPreviousPositionComesAfter){
-                        allListWorkers[indexPositonBase] = allListWorkers[indexBeforePosition];
+                        list[indexPositonBase] = list[indexBeforePosition];
 
                         indexPositonBase--;
                     } else  {
                         break;
                     }
                 }
-                allListWorkers[indexPositonBase] = workerPositionBase;
+                list[indexPositonBase] = workerPositionBase;
             }
 
 
 
         }
+    public String printListOrdersMembers(String[] list){
+        String allNames = "";
+
+        for(int i = 0; i < list.length; i++){
+            if (list[i] != null){
+                System.out.println(list[i]);
+                allNames += list[i] + "\n";
+            }}
+
+        return allNames;
+    }
+
 }
 
