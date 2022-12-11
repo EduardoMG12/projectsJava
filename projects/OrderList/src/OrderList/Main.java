@@ -1,46 +1,36 @@
 package OrderList;
 
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        Lists list = new Lists();
+        List list = new List();
 
-        Workers worker1 = new Workers();
+        Worker worker1 = new Worker();
         worker1.name = "Smith";
-        worker1.role = 2;
         list.addNewMemberList(worker1);
 
-        Workers worker2 = new Workers();
+        Worker worker2 = new Worker();
         worker2.name = "Pumba";
-        worker2.role = 1;
         list.addNewMemberList(worker2);
 
-        Workers worker3 = new Workers();
+        Worker worker3 = new Worker();
         worker3.name = "Timao";
-        worker3.role = 1;
         list.addNewMemberList(worker3);
 
-        Workers worker4 = new Workers();
+        Worker worker4 = new Worker();
         worker4.name = "Lucas";
-        worker4.role = 1;
         list.addNewMemberList(worker4);
 
-        Workers worker5 = new Workers();
+        Worker worker5 = new Worker();
         worker5.name = "Jorge";
-        worker5.role = 1;
         list.addNewMemberList(worker5);
 
         list.createArchiveListMembers();
         System.out.println("------------------------------");
         list.readArchiveListMembers();
 
-        for (var worker : list.backEnd) {
-            System.out.println(worker.name);
-
-        }
     }
 
 }

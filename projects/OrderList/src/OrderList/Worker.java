@@ -1,10 +1,14 @@
 package OrderList;
 
-public class Workers {
+public class Worker {
     public String name;
 
-
-    public int role;
+    boolean workerComesAfter(Worker worker){
+        if(worker == null){
+            return false;
+        }
+        return name.compareTo(worker.name) > 0;
+    }
 
     public String getName() {
         return name;
