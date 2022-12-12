@@ -43,16 +43,16 @@ public class List {
     }
 
     public void readArchiveListMembers(){
-        String path = "ListExercise";
+        String path = "ListExercise.txt";
         try{
             String content = Files.readString(Paths.get(path));
             System.out.println(content.length());
             String[] listRead = content.split("\n");
             System.out.println(listRead);
             System.out.println(listRead.length);
-            OrganizationList(listRead);
+            organizationList(listRead);
             FileWriter newFile = new FileWriter("orderList.txt");
-            OrganizationList(listRead);
+            organizationList(listRead);
             newFile.write(printListOrdersMembers(listRead));
             newFile.close();
 
@@ -65,10 +65,11 @@ public class List {
         newFile.write(printListMembers());
         newFile.close();
     }
-    public static void OrganizationList(String[] list){
+    public static void organizationList(String[] list){
             for (int i = 0; i < list.length; i++){
                 int indexPositonBase = i;
                 String workerPositionBase = list[i];
+
                 while(indexPositonBase > 0){
                     int indexBeforePosition = indexPositonBase -1;
                    String workerBeforePosition = list[indexBeforePosition];

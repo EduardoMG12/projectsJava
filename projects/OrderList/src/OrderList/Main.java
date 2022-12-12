@@ -35,6 +35,10 @@ public class Main {
         worker7.name = "Bruno";
         list.addNewMemberList(worker7);
 
+        Worker worker8 = new Worker();
+        worker8.name = "Bruna";
+        list.addNewMemberList(worker8);
+
         list.createArchiveListMembers();
         System.out.println("------------------------------");
         list.readArchiveListMembers();
