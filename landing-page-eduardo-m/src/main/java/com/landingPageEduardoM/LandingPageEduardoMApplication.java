@@ -1,13 +1,13 @@
-package br.com.charleseduardo.hello;
+package com.landingPageEduardoM;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloApplication {
+public class LandingPageEduardoMApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloApplication.class, args);
+		SpringApplication.run(LandingPageEduardoMApplication.class, args);
 	}
 
 }
