@@ -8,6 +8,15 @@ public class Contact {
 
     private String cellPhone;
 
+    public Contact(String id, String name, String cellPhone){
+        this.id = id;
+        this.name = name;
+        this.cellPhone = cellPhone;
+
+    }
+
+
+
     public String getName() {
         return name;
     }
