@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjectBotEmail/ProjectBotEmail.iml" filepath="$PROJECT_DIR$/ProjectBotEmail/ProjectBotEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SendEmail/SendEmail.iml" filepath="$PROJECT_DIR$/SendEmail/SendEmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projectsSemCommit.iml" filepath="$PROJECT_DIR$/.idea/projectsSemCommit.iml" />
+    </modules>
+  </component>
+</project>
