@@ -43,21 +43,23 @@
                 </thead>
 
                 <tbody>
-                <tr th:each="contato: ${contatos}">
-                    <td th:text="${contato.nome}"></td>
-
-                    <td th:text="${contato.telefone}"></td>
+                <tr th:each="contact:${contacts}">
+                    <td th:text="${contact.name}"></td>
+                    <td th:text="${contact.cellPhone}"></td>
 
                     <td>
-                        <a th:href="@{/contatos/{contato}/editar(contato=${contato.id})}">Editar</a>
+                        <a th:href="@{/contacts/{contact}/editar(contact=${contact.id})}">Editar</a>
                     </td>
 
                     <td>
-                        <form th:action="@{/contatos/{contato}(contato=${contato.id})}"
+                        <form th:action="@{/contacts/{contact}(contact=${contact.id})}"
                               th:method="delete">
                             <button>Remover</button>
                         </form>
                     </td>
+
+
+
                 </tr>
                 </tbody>
             </table>

@@ -2,6 +2,7 @@ package com.projectspringboot.projectspringboot;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
 
@@ -24,9 +25,14 @@ public class ContactController {
         return "index";
     }
 
+
     @GetMapping("/list")
-    public String list(){
-        return "list";
+    public ModelAndView list(){
+        var modelAndView = new ModelAndView("list");
+
+
+        modelAndView.addObject("contacts", CONTACT_LIST);
+        return modelAndView;
     }
 
     @GetMapping("/form")
