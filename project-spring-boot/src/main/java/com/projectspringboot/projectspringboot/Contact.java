@@ -8,11 +8,12 @@ public class Contact {
 
     private String cellPhone;
 
+    public Contact(){ }
+
     public Contact(String id, String name, String cellPhone){
         this.id = id;
         this.name = name;
         this.cellPhone = cellPhone;
-
     }
 
     public boolean isNew(){

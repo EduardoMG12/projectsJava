@@ -1,15 +1,11 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-
     <title>AlgaWorks</title>
-
     <link rel="stylesheet" th:href="@{./css/style.css}" />
-
 </head>
 
 <body>
@@ -32,10 +28,10 @@
     </section>
 
     <section>
-        <form th:action="${contacts.neew} ? @{/contacts} : @{/contacts/{contact}(contact=${contact.id})}"
-             th:object="${contact}" th:method="${contact.neew} ? post : put">
 
-            <div th:if="${!contact.new}">
+        <form th:action="${contact.neew} ? @{/list} : @{/list/{contact}(contact=${contact.id})}" th:object="${contact}" th:method="${contact.neew} ? post : put">
+
+            <div th:if="${!contact.neew}">
                 <label>Código: </label>
 
                 <input th:field="*{id}" readonly="readonly" />
@@ -57,6 +53,7 @@
                 <button>Salvar</button>
             </div>
         </form>
+
     </section>
 </main>
 </body>

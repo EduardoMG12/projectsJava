@@ -2,6 +2,7 @@ package com.projectspringboot.projectspringboot;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
@@ -29,22 +30,19 @@ public class ContactController {
     @GetMapping("/list")
     public ModelAndView list(){
         var modelAndView = new ModelAndView("list");
-
-
         modelAndView.addObject("contacts", CONTACT_LIST);
         return modelAndView;
-    }
-
-    @GetMapping("/form")
-    public String form(){
-        return "form";
     }
 
     @GetMapping("/form/neew")
     public ModelAndView neew(){
         var modelAndView = new ModelAndView("form");
-        modelAndView.addObject("contact", );
+
+        modelAndView.addObject("contact", new Contact());
         return modelAndView;
     }
-
+    @PostMapping("/form")
+    public String register(){
+        return "";
+    }
 }
