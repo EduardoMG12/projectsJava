@@ -15,6 +15,9 @@ public class Contact {
 
     }
 
+    public boolean isNew(){
+        return id == null;
+    }
 
 
     public String getName() {

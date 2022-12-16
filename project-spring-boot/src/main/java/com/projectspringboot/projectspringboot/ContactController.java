@@ -40,4 +40,11 @@ public class ContactController {
         return "form";
     }
 
+    @GetMapping("/form/neew")
+    public ModelAndView neew(){
+        var modelAndView = new ModelAndView("form");
+        modelAndView.addObject("contact", );
+        return modelAndView;
+    }
+
 }

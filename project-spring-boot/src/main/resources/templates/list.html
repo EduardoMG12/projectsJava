@@ -18,9 +18,9 @@
             <ul>
                 <li><a th:href="@{/}"> AlgaWorks Contatos </a></li>
 
-                <li><a th:href="@{list}"> Listar </a></li>
+                <li><a th:href="@{/list}"> Listar </a></li>
 
-                <li><a th:href="@{form}"> Novo </a></li>
+                <li><a th:href="@{/form/neew}"> Novo </a></li>
             </ul>
         </nav>
 
@@ -48,7 +48,7 @@
                     <td th:text="${contact.cellPhone}"></td>
 
                     <td>
-                        <a th:href="@{/contacts/{contact}/editar(contact=${contact.id})}">Editar</a>
+                        <a th:href="@{/contacts/{contact}/edit(contact=${contact.id})}">Editar</a>
                     </td>
 
                     <td>
